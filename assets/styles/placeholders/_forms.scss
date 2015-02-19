@@ -1,7 +1,7 @@
 %input {
     width: 100%;
     padding: $default-spacer;
-    border: 1px solid $light-grey;
+    border: 1px solid $light-gray;
     border-radius: 2px;
     font: {
         family: $sans;
@@ -11,7 +11,7 @@
     &:focus,
     &:hover {
         outline: none;
-        border: 1px solid darken($light-grey,10%);
+        border: 1px solid darken($light-gray,10%);
         transition: .3s ease;
     }
 }

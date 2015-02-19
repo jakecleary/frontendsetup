@@ -1,9 +1,10 @@
 //
-// Generic Colour Values
+// Generic Color Values
 //
 
 $dark: #444444;
 $light: #FFFFFF;
+$light-gray: #E4E4E4;
 
 $alert-ok: #edfdd3;
 $alert-error: #ffe6e3;
@@ -18,13 +19,13 @@ $primary-brand-color: #222F40;
 $secondary-brand-color: #41A6A6;
 $alt-brand-color: #75BF95;
 
-$primary-brand-color-text: $white;
+$primary-brand-color-text: $light;
 $primary-brand-color-comp: $alt-brand-color;
 
-$secondary-brand-color-text: $white;
+$secondary-brand-color-text: $light;
 $secondary-brand-color-comp: $alt-brand-color;
 
-$alt-brand-color-text: $white;
+$alt-brand-color-text: $light;
 $alt-brand-color-comp: $secondary-brand-color;
 
 //
