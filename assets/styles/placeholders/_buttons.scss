@@ -1,0 +1,27 @@
+%button {
+    display: inline-block;
+
+    &--primary {
+        @extend %button;
+
+        background: $primary-brand-color;
+        color: $light;
+
+        &:hover {
+            background: lighten($primary-brand-color, 10%);
+            color: $light;
+        }
+    }
+
+    &--secondary {
+        @extend %button;
+
+        background: $secondary-brand-color;
+        color: $light;
+
+        &:hover {
+            background: lighten($secondary-brand-color, 10%);
+            color: $light;
+        }
+    }
+}

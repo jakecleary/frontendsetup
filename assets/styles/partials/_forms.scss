@@ -1,6 +1,6 @@
-// ==================================
-    // Inputs & Labels
-// ==================================
+//
+// Inputs & Labels
+//
 
 input[type="text"],
 input[type="email"],
@@ -10,7 +10,7 @@ textarea {
 }
 
 input[type="submit"] {
-    @include button(large,primary);
+    @extend %button--primary;
 }
 
 label {
@@ -18,9 +18,9 @@ label {
     margin: 0 0 5px;
 }
 
-// ==================================
-    // Alerts
-// ==================================
+//
+// Alerts
+//
 
 .alert {
     display: inline-block;

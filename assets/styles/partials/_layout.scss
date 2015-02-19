@@ -5,10 +5,10 @@
     position: relative;
 
     @include bp($site-width + ($gutter*2)) {
-    	padding: 0 $gutter;
+        padding: 0 $gutter;
     }
 
     @include bp(x-small) {
-    	padding: 0 $mobile-gutter;
+        padding: 0 $mobile-gutter;
     }
 }

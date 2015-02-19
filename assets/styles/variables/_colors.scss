@@ -1,20 +1,35 @@
+//
 // Generic Colour Values
-// ===================== //
+//
 
-$red: #9c363c;
-$blue: #2c5a93;
-$white: #fff;
-$black: #231f20;
-$yellow: #e1d148;
-$green: #34a36a;
-$orange: #e44e36;
-$light-grey: #e4e4e4;
+$dark: #444444;
+$light: #FFFFFF;
 
 $alert-ok: #edfdd3;
 $alert-error: #ffe6e3;
 
+//
+// Site specific colors
+//
+
+$base-text-color: $dark;
+
+$primary-brand-color: #222F40;
+$secondary-brand-color: #41A6A6;
+$alt-brand-color: #75BF95;
+
+$primary-brand-color-text: $white;
+$primary-brand-color-comp: $alt-brand-color;
+
+$secondary-brand-color-text: $white;
+$secondary-brand-color-comp: $alt-brand-color;
+
+$alt-brand-color-text: $white;
+$alt-brand-color-comp: $secondary-brand-color;
+
+//
 // Useful Brand Colours
-// ==================== //
+//
 
 $facebook: #3b5998;
 $twitter: #00aced;

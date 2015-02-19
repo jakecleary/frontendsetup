@@ -1,10 +1,23 @@
-// =============================================================================
+//
 // Font Awesome Icons
-// =============================================================================
+//
 
 @mixin fa-icon($icon, $position: before, $padding: 0) {
     &:#{$position} {
         display: inline-block;
+        text-decoration: inherit;
+        content: $icon;
+        line-height: 1;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        font: {
+            family: FontAwesome;
+            weight: normal;
+            style: normal;
+        };
+
         @if $padding not 0 {
             @if $position == "before" {
                 padding-right: $padding;
@@ -12,14 +25,6 @@
                 padding-left: $padding;
             }
         }
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1;
-        text-decoration: inherit;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        content: $icon;
     }
 }
 
@@ -29,7 +34,7 @@
     list-style-type: none;
 
     li {
-      position: relative;
+        position: relative;
     }
 
     li:before {
@@ -41,12 +46,16 @@
         text-align: center;
         display: inline-block;
         color: $color;
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
         line-height: 1;
+
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+
+        font: {
+            family: FontAwesome;
+            style: normal;
+            weight: normal;
+        };
     }
 }
 
